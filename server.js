@@ -10,9 +10,9 @@ hbs.registerPartials(__dirname + '/views/partials');
 
 app.use(express.static(__dirname + '/public'));
 
-app.use((req, res, next) => {
-    res.render('maintenance.hbs');
-});
+// app.use((req, res, next) => {
+//     res.render('maintenance.hbs');
+// });
 
 app.get('/', (req, res) => {
    // res.send ('<H1>WOW IT WORKS!</H1>');
